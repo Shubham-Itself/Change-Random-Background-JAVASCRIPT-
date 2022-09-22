@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+h1{
+   background-color: brown;
+   color: white;
+   padding: 1rem 2rem;
+   border-radius:2rem ;
+}
+
+button{
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: 0.2s ease-in-out;
+    color: tomato;
+    font-size: 1rem;
+
+}
+
+button:hover{
+    background-color: rgb(143, 136, 136);
+}
